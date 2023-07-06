@@ -27,6 +27,6 @@ jobs:
         image: iamnilanjan3/vote
         tags: ${{ github.run_attempt }}, latest
         registry: docker.io
-        dockerfile: vote/Dockerfile
+#        dockerfile: vote/Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
